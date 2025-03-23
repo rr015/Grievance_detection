@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pollution Control Index</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #1f3b57;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 30px;
+        }
+        /* .logo {
+            font-size: 20px;
+            font-weight: bold;
+        } */
+        .logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 90px;
+    margin-right: 10px;
+}
+        .profile {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #ccc;
+        }
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .box {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .large-box {
+            width: 48%;
+            min-height: 250px;
+        }
+        .small-box {
+            width: 23%;
+            min-height: 150px;
+        }
+        .image-placeholder {
+            width: 100%;
+            height: 200px;
+            background-color: #ccc;
+            border-radius: 10px;
+        }
+        @media screen and (max-width: 1024px) {
+            .large-box {
+                width: 100%;
+            }
+            .small-box {
+                width: 48%;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            .small-box {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo"><img src="Final logo .png" alt="LiFE Logo" /></div>
+        <div>Pollution Control Index</div>
+        <div class="profile"></div>
+    </div>
+    <div class="container">
+        <div class="box large-box">
+            <div class="image-placeholder">Air Quality Map</div>
+        </div>
+        <div class="box large-box">
+            <div class="image-placeholder">Current Weather</div>
+        </div>
+        <div class="box small-box">
+            <div class="image-placeholder">AQI Index</div>
+        </div>
+        <div class="box small-box">
+            <div class="image-placeholder">Visibility</div>
+        </div>
+        <div class="box large-box">
+            <div class="image-placeholder">Weather Forecast Map</div>
+        </div>
+    </div>
+</body>
+</html>

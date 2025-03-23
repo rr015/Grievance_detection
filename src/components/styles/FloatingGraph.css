@@ -1,0 +1,17 @@
+.floating-graph {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 300px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.floating-graph:hover {
+  transform: scale(1.05);
+}

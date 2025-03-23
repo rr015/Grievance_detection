@@ -1,0 +1,14 @@
+.aqi-marker {
+  padding: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}

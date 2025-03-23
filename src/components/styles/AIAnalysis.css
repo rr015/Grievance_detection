@@ -1,0 +1,61 @@
+/* AIAnalysis.css */
+.ai-analysis {
+  text-align: center;
+  padding: 20px;
+  height: 100vh; /* ✅ Ensures full viewport height */
+  overflow-y: auto; /* ✅ Enables scrolling */
+}
+
+.ai-analysis h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #1f3b57;
+}
+
+.grievance-container,
+.tweet-container {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 90vw; /* ✅ Ensures container resizes properly */
+  text-align: left;
+  overflow-y: auto; /* ✅ Ensures individual sections are scrollable */
+  max-height: 50vh; /* ✅ Prevents content from getting cut off */
+}
+
+.grievance-container h2,
+.tweet-container h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #1f3b57;
+}
+
+.grievance-container ul,
+.tweet-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.grievance-container li,
+.tweet-container li {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.grievance-container li strong,
+.tweet-container li strong {
+  color: #1f3b57;
+}
+
+.grievance-container li small,
+.tweet-container li small {
+  color: #666;
+  font-size: 14px;
+}

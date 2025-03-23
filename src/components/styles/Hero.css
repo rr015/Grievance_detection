@@ -1,0 +1,34 @@
+/* Hero.css */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-top: 500px; /* Prevents content from being hidden behind fixed header */
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .carousel-controls {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: lightblue;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: #1e3a52;
+  }

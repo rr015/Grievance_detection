@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pollution Control Board Assam</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="Final logo .png" alt="LiFE Logo" />
+        <span class="brand-name"
+          >Pollution Control Board <strong>Assam</strong></span
+        >
+      </div>
+      <nav>
+        <ul>
+          <li><a href="Index2.html">AI Analysis</a></li>
+          <!-- <li><a href="#">About us</a></li> -->
+          <li class="dropdown">
+            <a href="#">Dashboard ▾</a>
+            <ul class="dropdown-menu">
+              <li><a href="Index4.html">Pollution Control index</a></li>
+              <li class="sub-dropdown">
+                <a href="#">Dashboard</a>
+                <!-- <ul class="sub-dropdown-menu">
+                  <li><a href="#">Floods</a></li>
+                  <li><a href="#">Earthquakes</a></li>
+                  <li><a href="#">Landslides</a></li>
+                </ul> -->
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">Forums ▾</a>
+            <ul class="dropdown-menu">
+              <li><a href="Index3.html">Discussion</a></li>
+              <li><a href="#" class="alert">Top trending articles</a></li>
+              <li><a href="Index5.html">About us </a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="profile">
+        <img src="profile.png" alt="User Profile" />
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="carousel">
+        <img src="istockphoto-1077531894-612x612.jpg" alt="Rhino in Assam" />
+        <div class="carousel-controls">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="info">
+      <h2><em>What we do?</em></h2>
+      <p>
+        We use a fast responsive algorithm and machine learning to detect
+        real-time disasters from social platforms and update directly to our
+        dashboard.
+      </p>
+    </section>
+    <section class="explore">
+      <h2>Explore Maps</h2>
+      <div class="buttons">
+        <button onclick="showMap('assam.jpg')">Assam</button>
+        <button onclick="showMap('guwahati-city-map.jpg')">Kamrup Metro</button>
+        <button onclick="showMap('Jorhat.10.gif')">Jorhat</button>
+      </div>
+    </section>
+
+    <section class="disaster-detection">
+      <h2>Disaster Detection</h2>
+      <p>
+        Our platform integrates Google Maps API to detect real-time disasters.
+        The more data it receives from social platforms, the more it narrows
+        down to affected areas. Everything, including geolocation, disaster
+        type, and scale, will be uploaded here.
+      </p>
+      <img id="mapDisplay" src="assam.jpg" alt="Map Display" />
+    </section>
+
+    <section class="about">
+      <h2>About</h2>
+      <p>
+        Disaster Detection is a web application that uses detection-based
+        algorithms, APIs, and bots to report real-time disasters from different
+        sources across social media platforms. Our goal is to provide data that
+        is usually inaccessible in real time.
+      </p>
+    </section>
+
+    <script>
+      function showMap(mapName) {
+        document.getElementById("mapDisplay").src = mapName;
+      }
+    </script>
+
+    <!-- <section class="explore">
+      <h2>Explore Maps</h2>
+      <div class="buttons">
+        <button>Assam</button>
+        <button>Kamrup Metro</button>
+        <button>Jorhat</button>
+      </div>
+    </section>
+
+    <section class="disaster-detection">
+      <h2>Disaster Detection</h2>
+      <p>
+        Our platform integrates Google Maps API to detect real-time disasters.
+        The more data it receives from social platforms, the more it narrows
+        down to affected areas. Everything, including geolocation, disaster
+        type, and scale, will be uploaded here.
+      </p>
+      <img src="guwahati-city-map.jpg" alt="Disaster Map" />
+    </section>
+
+    <section class="about">
+      <h2>About</h2>
+      <p>
+        Disaster Detection is a web application that uses detection-based
+        algorithms, APIs, and bots to report real-time disasters from different
+        sources across social media platforms. Our goal is to provide data that
+        is usually inaccessible in real time.
+      </p>
+    </section> -->
+  </body>
+</html>

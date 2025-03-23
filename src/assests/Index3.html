@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media Trends</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      .header {
+        background-color: #1f3b57;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        font-size: 18px;
+      }
+      .header span {
+        color: red;
+        font-weight: bold;
+      }
+      .container {
+        width: 90%;
+        margin: 20px auto;
+        text-align: center;
+      }
+      .platforms {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      .trending-section {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+      .trend-box {
+        width: 30%;
+        background-color: #2f4d6f;
+        padding: 15px;
+        border-radius: 10px;
+        color: white;
+      }
+      .trend-box h3 {
+        font-size: 18px;
+      }
+      .trend-box span {
+        color: red;
+        font-weight: bold;
+      }
+      .trend-box .image-placeholder {
+        width: 100%;
+        height: 250px;
+        background-color: #ccc;
+        border-radius: 10px;
+        margin-top: 10px;
+      }
+      @media screen and (max-width: 1024px) {
+        .trend-box {
+          width: 45%; /* Allow two items per row on tablets */
+          margin-bottom: 15px;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        .trend-box {
+          width: 100%; /* Stack items on smaller screens */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      Messages from <span>social media</span> and other Messaging apps
+    </div>
+    <div class="container">
+      <div class="platforms">Twitter | Facebook | Instagram</div>
+      <div class="trending-section">
+        <div class="trend-box">
+          <h3>Top <span>Trending</span> from Twitter</h3>
+          <div class="image-placeholder"></div>
+        </div>
+        <div class="trend-box">
+          <h3>Top <span>Trending</span> from Facebook</h3>
+          <div class="image-placeholder"></div>
+        </div>
+        <div class="trend-box">
+          <h3>Top <span>Trending</span> from Instagram</h3>
+          <div class="image-placeholder"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
