@@ -3,7 +3,7 @@ import { getDatabase } from "firebase/database";
 
 // Firebase configuration for second instance
 const firebaseConfig2 = {
-  databaseURL: "https://gas-humidity-data-default-rtdb.firebaseio.com/",
+  databaseURL: ,
 };
 
 // Initialize the second Firebase app
